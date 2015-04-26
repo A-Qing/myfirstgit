@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:padding="16dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="26sp"
+        android:textSize="21sp"
+        android:text="文本"
+        android:id="@+id/textView_txt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="26sp"
+        android:textSize="21sp"
+        android:text="音频"
+        android:id="@+id/textView_audio"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="26sp"
+        android:textSize="21sp"
+        android:text="视频"
+        android:id="@+id/textView_vidio"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="26sp"
+        android:textSize="21sp"
+        android:text="图像"
+        android:id="@+id/textView_pic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="26sp"
+        android:textSize="21sp"
+        android:text="其他"
+        android:id="@+id/textView_other"/>
+</LinearLayout>

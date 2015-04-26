@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/relative_layout"
+                android:descendantFocusability="blocksDescendants"
+                android:paddingLeft="13dp"
+                android:background="@drawable/mult_bg">
+    <!--android:descendantFocusability="blocksDescendants"
+    在ListView中即使有ImageButton和ChecBox也可以获得焦点-->
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView_fileImg"
+        android:src="@drawable/ic_action_collection"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView_filename"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="6dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView_fileImg" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:src="@drawable/ic_action_overflow"
+        android:layout_centerVertical="true"
+        style="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView_filesize"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_alignStart="@+id/textView_filename"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/textView_lastmodify"
+        android:layout_alignBottom="@+id/imageView_fileImg"
+        android:layout_toEndOf="@+id/imageView_fileImg"
+        android:layout_marginStart="88dp" />
+</RelativeLayout>

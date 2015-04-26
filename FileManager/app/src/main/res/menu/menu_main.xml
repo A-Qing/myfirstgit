@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity"
+     >
+    <item android:id="@+id/action_newProject"
+          android:title="@string/action_newPro"
+          android:showAsAction="never"></item>
+    <item android:id="@+id/action_about"
+          android:title="@string/action_about"
+          android:showAsAction="never"></item>
+    <item android:id="@+id/acntion_show"
+          android:title="显示方式">
+        <menu>
+            <item android:title="列表形式"
+                android:id="@+id/show_as_list"></item>
+            <item android:title="网格形式" android:id="@+id/show_as_grid"></item>
+        </menu>
+
+          </item>
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          android:orderInCategory="100"
+          android:showAsAction="never"/>
+
+    <item android:id="@+id/action_search"
+          android:title="@string/action_search"
+
+          android:icon="@drawable/ic_action_search"
+          android:showAsAction="always"></item>
+    <item android:id="@+id/action_sort"
+          android:title="@string/action_sort"
+          android:icon="@drawable/ic_action_sort_by_size"
+          android:showAsAction="always">
+        <menu >
+            <group android:checkableBehavior="single"
+               >
+                <item android:id="@+id/action_sort_by_abc"
+                      android:title="@string/sort_by_abc"
+                      >
+                </item>
+                <item android:id="@+id/action_sort_by_directory"
+                      android:title="@string/sort_by_directory"  >
+                </item>
+                <item android:id="@+id/action_sort_by_size"
+                      android:title="@string/sort_by_size"  >
+                </item>
+                <item android:id="@+id/action_sort_by_desc"
+                      android:title="@string/sort_by_desc"  >
+                </item>
+                <item android:id="@+id/action_sort_by_last_modify"
+                      android:title="@string/sort_by_last_modify"  >
+                </item>
+            </group>
+
+        </menu>
+          </item>
+
+</menu>

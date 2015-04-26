@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_copy_file"
+          android:title="@string/action_copy"></item>
+    <item android:id="@+id/action_cut"
+          android:title="@string/action_cut"></item>
+    <item android:id="@+id/action_rename"
+          android:title="@string/action_rename"></item>
+    <item android:id="@+id/action_open_with"
+          android:title="@string/action_open_with"></item>
+    <item android:id="@+id/action_add_to_main"
+          android:title="@string/action_add_to_main"></item>
+    <item android:id="@+id/action_property"
+          android:title="@string/action_property"></item>
+
+</menu>
